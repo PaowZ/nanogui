@@ -198,6 +198,9 @@ void TextArea::draw(NVGcontext *ctx) {
         nvgFillColor(ctx, color);
         nvgText(ctx, offset.x(), offset.y(),
                 block.text.c_str(), nullptr);
+
+//        nvgText(ctx, 15, 45,
+//                block.text.c_str(), nullptr);
     }
 }
 
